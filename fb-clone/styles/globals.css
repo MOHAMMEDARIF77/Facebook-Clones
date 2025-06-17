@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+@layer components {
+  .icon {
+    @apply hidden xl:inline-flex p-2 h-10 w-10 bg-gray-200 rounded-full text-gray-700 cursor-pointer hover:bg-gray-300;
+  }
+  /* Add this to your global CSS or Tailwind config */
+
+ .inputIcon {
+  @apply flex items-center space-x-1 p-2 hover:bg-gray-100 rounded-xl cursor-pointer transition duration-150;
+}
+
+
+  /* global.css */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+
