@@ -24,7 +24,7 @@ const StoryCard = ({ name, src, profile }) => {
         alt={name}
         layout="fill"
       />
-      {/* <P className="absolute opacity-0 lg:opacity-100 bottom-4 w-5/6 text-white text-sm font-bold truncate">{name}</P> */}
+      {/* <p className="absolute opacity-0 lg:opacity-100 bottom-4 w-5/6 text-white text-sm font-bold truncate">{name}</p> */}
     </div>
   );
 };
