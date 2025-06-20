@@ -6,8 +6,7 @@ import {
   CameraIcon,
   VideoCameraIcon,
 } from "@heroicons/react/24/outline";
-// import firebase from "firebase";
-// import { db, firebase } from "../firebase";
+
 import { db, storage, firebase } from "../firebase";
 
 const InputBox = () => {
